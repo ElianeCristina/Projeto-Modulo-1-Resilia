@@ -84,32 +84,3 @@ h1{
     margin-left: 28%;
     color: rgb(227, 178, 60);
   }
-
-@media screen and (max-width: 700px){
-  .card img {
-    margin: 20px;
-    margin-bottom: 30px;
-    width: 320px; 
-    height: 450px;
-    border-radius: 30px;
-    transition: all .3s ease-out;
-    cursor: pointer;
-  } 
-  .card img:hover{
-    transform: none;
-  }
-}
-
-@media screen and (max-width: 340px){
-  .card img {
-    width: 280px; 
-    height: 350px;
-    margin-bottom: 20px;
-    border-radius: 30px;
-    transition: all .3s ease-out;
-    cursor: pointer;
-  } 
-  .card img:hover{
-    transform: none;
-  } 
-}
