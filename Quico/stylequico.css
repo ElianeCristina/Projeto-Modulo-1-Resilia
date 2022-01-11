@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(66, 62, 55);
+    align-items: baseline;
+}
+
+.div1{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-right:32%;
+    margin-left: 32%;
+    align-items: center;
+}
+
+.fase{
+    border-style: double;
+    background: #d8d8d823;
+    align-self: center;
+    margin-top: 5%;
+    width: 400px;
+    height: 110px;
+    padding: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(227, 178, 60);
+    font-size: 60px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    overflow: hidden;
+}
+
+.img1{
+    border-style: double;
+    color: rgb(227, 178, 60);
+    margin-top: 5%;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.img2{
+    border-style: double;
+    color: rgb(227, 178, 60);
+    margin-top: 5%;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 30px;
+  }
+
+.div2{
+    border-style: double;
+    background: #d8d8d823;
+    display: block;
+    align-self: center;
+    width: 80%;
+    height: 50%;
+    padding: 2% 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(227, 178, 60);
+    font-size: 25px;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left: 38%;
+    margin-right: 38%;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.button{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(227, 178, 60);
+    color: honeydew;
+    box-shadow: none;
+    border: none;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: #d8d8d823;
+    color: rgb(227, 178, 60);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(227, 178, 60);
+  }
