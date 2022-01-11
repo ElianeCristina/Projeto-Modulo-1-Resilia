@@ -9,6 +9,12 @@ body{
     
 }
 
+main{
+    margin: 0 auto;
+    width: 1280px;
+    height: 720px;
+}
+
 .div1{
     margin-top: 2%;
     margin-left: 25%;
