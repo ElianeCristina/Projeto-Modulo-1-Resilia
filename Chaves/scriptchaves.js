@@ -3,7 +3,7 @@ function chaves1() {
     while(true) {    
       let resposta;
       resposta = prompt(`Escolha a sua resposta:
-      1. Nada, ela deu o dinheiro pra mim e vou comprar tudo de sanduiche de mortadela.
+      1. Nada, ela deu o dinheiro pra mim e vou comprar tudo de sanduiche de presunto.
       2. R$ 10.00.`);
       
       if (resposta == 2) {
